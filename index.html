@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>WOG App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WOG App</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to WOG App</h1>
-    <script src="app.js"></script>
+	<header>
+		<img src="logo.png" alt="Entrance Logo" class="logo">
+		<h1>Welcome to the WOG App</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#tracker">Tracker</a></li>
+			<li><a href="#audio-messages">Audio Messages</a></li>
+			<li><a href="#quiz">Quiz</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#share">Share This App</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="tracker">
+			<h2>Tracker</h2>
+			<!-- Tracker content here -->
+		</section>
+		<section id="audio-messages">
+			<h2>Audio Messages</h2>
+			<!-- Audio messages content here -->
+		</section>
+		<section id="quiz">
+			<h2>Quiz</h2>
+			<!-- Quiz content here -->
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<!-- Contact information here -->
+		</section>
+		<section id="about">
+			<h2>About Us</h2>
+			<!-- About the app content here -->
+		</section>
+		<section id="share">
+			<h2>Share This App</h2>
+			<!-- Sharing options content here -->
+		</section>
+	</main>
+	<footer>
+		<button onclick="fullBible()">Full Bible</button>
+		<button onclick="songs()">Songs</button>
+		<button onclick="books()">Books</button>
+		<button onclick="live()">Live</button>
+	</footer>
+	<script src="script.js"></script>
 </body>
 </html>

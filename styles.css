@@ -1,0 +1,45 @@
+.entrance-logo {
+    background-image: url('path/to/logo.png');
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.side-menu-item {
+    margin: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.bottom-button {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.bottom-button:hover {
+    background-color: #45a049;
+}
